@@ -3,6 +3,9 @@
 
 ## Preview
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/preview.gif" alt="Preview gif">
+```
+$ pod try GlitchLabel
+```
 
 ## Requirements
 * iOS 8.0+
