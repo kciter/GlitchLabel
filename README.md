@@ -12,7 +12,7 @@ $ pod try GlitchLabel
 ```
 
 ## Requirements
-* iOS 8.0+
+* iOS 7.0+
 * Swift 2.2
 * Xcode 7
 
