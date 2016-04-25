@@ -9,17 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var glitchLabel: GlitchLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        If white background
+//        glitchLabel.blendMode = .Multiply
+//        view.backgroundColor = UIColor.whiteColor()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

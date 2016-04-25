@@ -12,6 +12,7 @@
 		B67E4C611CC9C51500B04CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E4C5F1CC9C51500B04CDA /* Main.storyboard */; };
 		B67E4C631CC9C51500B04CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67E4C621CC9C51500B04CDA /* Assets.xcassets */; };
 		B67E4C661CC9C51500B04CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E4C641CC9C51500B04CDA /* LaunchScreen.storyboard */; };
+		B68FF4E11CCDC568009B0DFE /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FF4E01CCDC568009B0DFE /* GlitchLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B67E4C621CC9C51500B04CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67E4C651CC9C51500B04CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B67E4C671CC9C51500B04CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68FF4E01CCDC568009B0DFE /* GlitchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlitchLabel.swift; path = ../../GlitchLabel/GlitchLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B67E4C5A1CC9C51500B04CDA /* GlitchLabel */ = {
 			isa = PBXGroup;
 			children = (
+				B67E4C6D1CC9C52F00B04CDA /* GlitchLabel */,
 				B67E4C5B1CC9C51500B04CDA /* AppDelegate.swift */,
 				B67E4C5D1CC9C51500B04CDA /* ViewController.swift */,
 				B67E4C5F1CC9C51500B04CDA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				B67E4C671CC9C51500B04CDA /* Info.plist */,
 			);
 			path = GlitchLabel;
+			sourceTree = "<group>";
+		};
+		B67E4C6D1CC9C52F00B04CDA /* GlitchLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B68FF4E01CCDC568009B0DFE /* GlitchLabel.swift */,
+			);
+			name = GlitchLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				B67E4C5E1CC9C51500B04CDA /* ViewController.swift in Sources */,
 				B67E4C5C1CC9C51500B04CDA /* AppDelegate.swift in Sources */,
+				B68FF4E11CCDC568009B0DFE /* GlitchLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				B67E4C6C1CC9C51500B04CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
