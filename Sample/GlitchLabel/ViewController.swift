@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        If white background
-        glitchLabel.blendMode = .Multiply
-        view.backgroundColor = UIColor.whiteColor()
+//        glitchLabel.blendMode = .Multiply
+//        view.backgroundColor = UIColor.whiteColor()
     }
 }
