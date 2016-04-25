@@ -55,7 +55,7 @@ view.addSubview(glitchLabel)
 
 ### White screen
 ```swift
-glitchLabel.blendMode = .Multifly
+glitchLabel.blendMode = .Multiply
 ```
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/whitescreen.gif" alt="White screen">
 
