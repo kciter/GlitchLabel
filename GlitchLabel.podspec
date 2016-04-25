@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "GlitchLabel"
   s.version      = "1.0.0"
-  s.summary      = ""
+  s.summary      = "Gliching UILabel for iOS"
   s.homepage     = "https://github.com/kciter/GlitchLabel"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "kciter" => "kciter@naver.com" }
