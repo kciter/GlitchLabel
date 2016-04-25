@@ -3,6 +3,9 @@
 
 ## Preview
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/preview.gif" alt="Preview gif">
+```
+$ pod try GlitchLabel
+```
 
 ## Requirements
 * iOS 8.0+
@@ -38,6 +41,9 @@ view.addSubview(glitchLabel)
 glitchLabel.blendMode = .Multifly
 ```
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/whitescreen.gif" alt="White screen">
+
+## Inspired
+* http://codepen.io/paultreny/pen/nJyvG
 
 ## License
 The MIT License (MIT)
