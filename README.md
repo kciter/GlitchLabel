@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
 [![License](https://img.shields.io/cocoapods/l/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
 [![Platform](https://img.shields.io/cocoapods/p/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/kciter/GlitchLabel.svg?branch=master)](https://travis-ci.org/kciter/GlitchLabel)
 
 ## Preview
