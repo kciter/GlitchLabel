@@ -1,5 +1,9 @@
 # GlitchLabel
-
+![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg)
+[![Version](https://img.shields.io/cocoapods/v/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
+[![License](https://img.shields.io/cocoapods/l/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
+[![Platform](https://img.shields.io/cocoapods/p/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
+[![Build Status](https://travis-ci.org/kciter/GlitchLabel.svg?branch=master)](https://travis-ci.org/kciter/GlitchLabel)
 
 ## Preview
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/preview.gif" alt="Preview gif">
@@ -8,7 +12,7 @@ $ pod try GlitchLabel
 ```
 
 ## Requirements
-* iOS 8.0+
+* iOS 7.0+
 * Swift 2.2
 * Xcode 7
 
@@ -51,7 +55,7 @@ view.addSubview(glitchLabel)
 
 ### White screen
 ```swift
-glitchLabel.blendMode = .Multifly
+glitchLabel.blendMode = .Multiply
 ```
 <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/whitescreen.gif" alt="White screen">
 
