@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B64C3BE31CD0801700D91D98 /* GlitchLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B64C3BE11CD0801700D91D98 /* GlitchLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B64C3BE41CD0801700D91D98 /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C3BE21CD0801700D91D98 /* GlitchLabel.swift */; };
-		B64C3BE61CD0802200D91D98 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64C3BE51CD0802200D91D98 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,7 +123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64C3BE61CD0802200D91D98 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
