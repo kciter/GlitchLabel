@@ -18,18 +18,18 @@ $ pod try GlitchLabel
 * Xcode 7
 
 ## Installation
-* CocoaPods
+* **CocoaPods**
  ```ruby
  use_frameworks!
  pod "GlitchLabel"
  ```
 
-* Carthage
+* **Carthage**
  ```ruby
  github "kciter/GlitchLabel"
  ```
 
-* Swift Package Manager
+* **Swift Package Manager**
  ```swift
  import PackageDescription
   
@@ -41,8 +41,8 @@ $ pod try GlitchLabel
  )
  ```
 
-### Manually
-To install manually the GlitchLabel in an app, just drag the `GlitchLabel/GlitchLabel.swift` file into your project.
+* **Manually**
+  * To install manually the GlitchLabel in an app, just drag the `GlitchLabel/GlitchLabel.swift` file into your project.
 
 ## Usage
 
