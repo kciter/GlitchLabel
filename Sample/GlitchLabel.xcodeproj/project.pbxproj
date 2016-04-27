@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64C3BE81CD0849100D91D98 /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C3BE71CD0849100D91D98 /* GlitchLabel.swift */; };
 		B67E4C5C1CC9C51500B04CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E4C5B1CC9C51500B04CDA /* AppDelegate.swift */; };
 		B67E4C5E1CC9C51500B04CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67E4C5D1CC9C51500B04CDA /* ViewController.swift */; };
 		B67E4C611CC9C51500B04CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E4C5F1CC9C51500B04CDA /* Main.storyboard */; };
 		B67E4C631CC9C51500B04CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67E4C621CC9C51500B04CDA /* Assets.xcassets */; };
 		B67E4C661CC9C51500B04CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E4C641CC9C51500B04CDA /* LaunchScreen.storyboard */; };
-		B69DFCD81CCDDFF4007334F0 /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DFCD71CCDDFF4007334F0 /* GlitchLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B64C3BE71CD0849100D91D98 /* GlitchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlitchLabel.swift; path = ../../Sources/GlitchLabel.swift; sourceTree = "<group>"; };
 		B67E4C581CC9C51500B04CDA /* GlitchLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlitchLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67E4C5B1CC9C51500B04CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67E4C5D1CC9C51500B04CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		B67E4C621CC9C51500B04CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67E4C651CC9C51500B04CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B67E4C671CC9C51500B04CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B69DFCD71CCDDFF4007334F0 /* GlitchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlitchLabel.swift; path = ../../Source/GlitchLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		B67E4C6D1CC9C52F00B04CDA /* GlitchLabel */ = {
 			isa = PBXGroup;
 			children = (
-				B69DFCD71CCDDFF4007334F0 /* GlitchLabel.swift */,
+				B64C3BE71CD0849100D91D98 /* GlitchLabel.swift */,
 			);
 			name = GlitchLabel;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			files = (
 				B67E4C5E1CC9C51500B04CDA /* ViewController.swift in Sources */,
 				B67E4C5C1CC9C51500B04CDA /* AppDelegate.swift in Sources */,
-				B69DFCD81CCDDFF4007334F0 /* GlitchLabel.swift in Sources */,
+				B64C3BE81CD0849100D91D98 /* GlitchLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
