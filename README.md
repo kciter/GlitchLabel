@@ -17,6 +17,7 @@
   <sub>Created by <a href="https://github.com/kciter">Lee Sun-Hyoup</a>.</sub>
 </div>
 
+## Try the sample
 ```
 $ pod try GlitchLabel
 ```
