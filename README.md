@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
 [![License](https://img.shields.io/cocoapods/l/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
 [![Platform](https://img.shields.io/cocoapods/p/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build Status](https://travis-ci.org/kciter/GlitchLabel.svg?branch=master)](https://travis-ci.org/kciter/GlitchLabel)
 
 ## Preview
@@ -17,26 +18,31 @@ $ pod try GlitchLabel
 * Xcode 7
 
 ## Installation
-### CocoaPods
-```ruby
-use_frameworks!
-pod "GlitchLabel"
-```
+* **CocoaPods**
+  ```ruby
+  use_frameworks!
+  pod "GlitchLabel"
+  ```
 
-### Swift Package Manager
-```swift
-import PackageDescription
- 
-let package = Package(
-  name: "App",
-  dependencies: [
-    .Package(url: "https://github.com/kciter/GlitchLabel.git", majorVersion: 1)
-  ]
-)
-```
+* **Carthage**
+  ```ruby
+  github "kciter/GlitchLabel"
+  ```
 
-### Manually
-To install manually the GlitchLabel in an app, just drag the `GlitchLabel/GlitchLabel.swift` file into your project.
+* **Swift Package Manager**
+  ```swift
+  import PackageDescription
+
+  let package = Package(
+    name: "App",
+    dependencies: [
+      .Package(url: "https://github.com/kciter/GlitchLabel.git", majorVersion: 1)
+    ]
+  )
+  ```
+
+* **Manually**
+  * To install manually the GlitchLabel in an app, just drag the `GlitchLabel/GlitchLabel.swift` file into your project.
 
 ## Usage
 
