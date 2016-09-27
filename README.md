@@ -1,27 +1,40 @@
-# GlitchLabel
-![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg)
-[![Version](https://img.shields.io/cocoapods/v/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
-[![License](https://img.shields.io/cocoapods/l/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
-[![Platform](https://img.shields.io/cocoapods/p/GlitchLabel.svg?style=flat)](http://cocoapods.org/pods/glitchlabel)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Build Status](https://travis-ci.org/kciter/GlitchLabel.svg?branch=master)](https://travis-ci.org/kciter/GlitchLabel)
+<div align="center">
+  <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/preview.gif" alt="Preview gif">
+  <sub>This is Preview!</sub>
+</div>
+<br>
 
-## Preview
-<img src="https://github.com/kciter/GlitchLabel/raw/master/Images/preview.gif" alt="Preview gif">
+<h1 align="center">GlitchLabel</h1>
+<div align="center">
+<p><a href="https://camo.githubusercontent.com/0188e770bbde9d9eae6720a70d5d3fad0952d77b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53776966742d322e322d6f72616e67652e737667" target="_blank"><img src="https://img.shields.io/badge/Swift-3-orange.svg"></a>
+<a href="http://cocoapods.org/pods/glitchlabel"><img src="https://img.shields.io/cocoapods/v/GlitchLabel.svg?style=flat"></a>
+<a href="http://cocoapods.org/pods/glitchlabel"><img alt="License" src="https://img.shields.io/cocoapods/l/GlitchLabel.svg?style=flat"></a>
+<a href="http://cocoapods.org/pods/glitchlabel"><img alt="Platform" src="https://img.shields.io/cocoapods/p/GlitchLabel.svg?style=flat"></a>
+<a href="https://github.com/Carthage/Carthage"><img alt="Carthage compatible" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
+<a href="https://travis-ci.org/kciter/GlitchLabel"><img alt="Build Status" src="https://travis-ci.org/kciter/GlitchLabel.svg?branch=master"></a></p>
+</div>
+
+<div align="center">
+  Glitching UILabel for iOS 📺<br>
+</div>
+<div align="center">
+  <sub>Created by <a href="https://github.com/kciter">Lee Sun-Hyoup</a>.</sub>
+</div>
+
 ```
 $ pod try GlitchLabel
 ```
 
 ## Requirements
-* iOS 7.0+
-* Swift 2.2
-* Xcode 7
+* iOS 8.0+
+* Swift 3
+* Xcode 8
 
 ## Installation
 * **CocoaPods**
   ```ruby
   use_frameworks!
-  pod "GlitchLabel"
+  pod "GlitchLabel", "~> 2.0.0"
   ```
 
 * **Carthage**
