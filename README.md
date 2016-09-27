@@ -47,7 +47,7 @@ $ pod try GlitchLabel
   let package = Package(
     name: "App",
     dependencies: [
-      .Package(url: "https://github.com/kciter/GlitchLabel.git", majorVersion: 1)
+      .Package(url: "https://github.com/kciter/GlitchLabel.git", majorVersion: 2)
     ]
   )
   ```
