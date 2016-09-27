@@ -1,6 +1,7 @@
 <div align="center">
   <img src="https://github.com/kciter/GlitchLabel/raw/master/Images/preview.gif" alt="Preview gif">
 </div>
+<h1></h1>
 <div align="center">
 <p><a href="https://camo.githubusercontent.com/0188e770bbde9d9eae6720a70d5d3fad0952d77b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53776966742d322e322d6f72616e67652e737667" target="_blank"><img src="https://img.shields.io/badge/Swift-3-orange.svg"></a>
 <a href="http://cocoapods.org/pods/glitchlabel"><img src="https://img.shields.io/cocoapods/v/GlitchLabel.svg?style=flat"></a>
