@@ -132,8 +132,8 @@ open class GlitchLabel: UILabel {
     fileprivate func getRedImage(_ rect: CGRect) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
-            NSFontAttributeName: UIFont.init(name: font.fontName, size: font.pointSize)!,
-            NSForegroundColorAttributeName: UIColor.red
+            NSAttributedStringKey.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
+            NSAttributedStringKey.foregroundColor: UIColor.red
             ])
         
         let redImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
@@ -145,8 +145,8 @@ open class GlitchLabel: UILabel {
     fileprivate func getGreenImage(_ rect: CGRect) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
-            NSFontAttributeName: UIFont.init(name: font.fontName, size: font.pointSize)!,
-            NSForegroundColorAttributeName: UIColor.green
+            NSAttributedStringKey.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
+            NSAttributedStringKey.foregroundColor: UIColor.green
             ])
         let greenImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
@@ -157,8 +157,8 @@ open class GlitchLabel: UILabel {
     fileprivate func getBlueImage(_ rect: CGRect) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
-            NSFontAttributeName: UIFont.init(name: font.fontName, size: font.pointSize)!,
-            NSForegroundColorAttributeName: UIColor.blue
+            NSAttributedStringKey.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
+            NSAttributedStringKey.foregroundColor: UIColor.blue
             ])
         
         let blueImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
