@@ -23,13 +23,6 @@
 $ pod try GlitchLabel
 ```
 
-## Support
-If you like this open source, you can sponsor it. :smile:
-```
-Litecoin: LZSFLGDLe1pBxQB7v54kEcobYnu1uAR9U6
-Bitcoin: 1Hrauu2sPczma53gpYU4Y2kap5Hi6K3Ma3
-```
-
 ## Requirements
 * iOS 8.0+
 * Swift 3
@@ -85,6 +78,11 @@ glitchLabel.blendMode = .Multiply
 
 ## Inspired
 * http://codepen.io/paultreny/pen/nJyvG
+
+## Donate
+If you like this open source, you can sponsor it. :smile:
+
+[Paypal me](paypal.me/kciter)
 
 ## License
 The MIT License (MIT)
