@@ -273,7 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kciter.GlitchLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7325859d-4e0c-4f8b-98aa-73a3c93a95a2";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -287,7 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kciter.GlitchLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7325859d-4e0c-4f8b-98aa-73a3c93a95a2";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
