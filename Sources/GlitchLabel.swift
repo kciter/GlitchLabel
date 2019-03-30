@@ -45,7 +45,7 @@ open class GlitchLabel: UILabel {
             return
         }
         
-        var x0 = CGFloat(amplitude * sin((M_PI * 2.0) * phase))
+        var x0 = CGFloat(amplitude * sin((.pi * 2.0) * phase))
         
         if random() >= glitchThreshold {
             x0 *= CGFloat(glitchAmplitude)
@@ -132,7 +132,7 @@ open class GlitchLabel: UILabel {
     fileprivate func getRedImage(_ rect: CGRect) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
-            NSAttributedStringKey.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
+            NSAttributedString.Key.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
             NSAttributedStringKey.foregroundColor: UIColor.red
             ])
         
@@ -145,7 +145,7 @@ open class GlitchLabel: UILabel {
     fileprivate func getGreenImage(_ rect: CGRect) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
-            NSAttributedStringKey.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
+            NSAttributedString.Key.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
             NSAttributedStringKey.foregroundColor: UIColor.green
             ])
         let greenImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
@@ -157,7 +157,7 @@ open class GlitchLabel: UILabel {
     fileprivate func getBlueImage(_ rect: CGRect) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
-            NSAttributedStringKey.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
+            NSAttributedString.Key.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
             NSAttributedStringKey.foregroundColor: UIColor.blue
             ])
         
@@ -185,7 +185,7 @@ open class GlitchLabel: UILabel {
                            userInfo: nil,
                            repeats: true)
         
-        RunLoop.current.add(timer, forMode: RunLoopMode.defaultRunLoopMode)
+        RunLoop.current.add(timer, forMode: RunLoop.Mode.defaultRunLoopMode)
     }
     
     fileprivate func random() -> Double {
