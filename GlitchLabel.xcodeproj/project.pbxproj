@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C83B74922596E3C00324A23 /* GlitchLabel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9C83B74822596E3C00324A23 /* GlitchLabel.podspec */; };
 		B64C3BE31CD0801700D91D98 /* GlitchLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B64C3BE11CD0801700D91D98 /* GlitchLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B64C3BE41CD0801700D91D98 /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C3BE21CD0801700D91D98 /* GlitchLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C83B74822596E3C00324A23 /* GlitchLabel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GlitchLabel.podspec; sourceTree = "<group>"; };
 		B64C3BB61CD07C5B00D91D98 /* GlitchLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlitchLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64C3BE11CD0801700D91D98 /* GlitchLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlitchLabel.h; path = Sources/GlitchLabel.h; sourceTree = SOURCE_ROOT; };
 		B64C3BE21CD0801700D91D98 /* GlitchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlitchLabel.swift; path = Sources/GlitchLabel.swift; sourceTree = SOURCE_ROOT; };
@@ -32,6 +34,7 @@
 		B64C3BAC1CD07C5B00D91D98 = {
 			isa = PBXGroup;
 			children = (
+				9C83B74822596E3C00324A23 /* GlitchLabel.podspec */,
 				B64C3BB81CD07C5B00D91D98 /* GlitchLabel */,
 				B64C3BB71CD07C5B00D91D98 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C83B74922596E3C00324A23 /* GlitchLabel.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +276,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kciter.GlitchLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
