@@ -133,7 +133,7 @@ open class GlitchLabel: UILabel {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
             NSAttributedString.Key.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
-            NSAttributedStringKey.foregroundColor: UIColor.red
+            NSAttributedString.Key.foregroundColor: UIColor.red
             ])
         
         let redImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
@@ -146,7 +146,7 @@ open class GlitchLabel: UILabel {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
             NSAttributedString.Key.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
-            NSAttributedStringKey.foregroundColor: UIColor.green
+            NSAttributedString.Key.foregroundColor: UIColor.green
             ])
         let greenImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
@@ -158,7 +158,7 @@ open class GlitchLabel: UILabel {
         UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.main.scale)
         text?.draw(in: rect, withAttributes: [
             NSAttributedString.Key.font: UIFont.init(name: font.fontName, size: font.pointSize)!,
-            NSAttributedStringKey.foregroundColor: UIColor.blue
+            NSAttributedString.Key.foregroundColor: UIColor.blue
             ])
         
         let blueImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
@@ -185,7 +185,7 @@ open class GlitchLabel: UILabel {
                            userInfo: nil,
                            repeats: true)
         
-        RunLoop.current.add(timer, forMode: RunLoop.Mode.defaultRunLoopMode)
+        RunLoop.current.add(timer, forMode: RunLoop.Mode.default)
     }
     
     fileprivate func random() -> Double {
