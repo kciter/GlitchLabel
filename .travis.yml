@@ -1,2 +1,2 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode10.2
