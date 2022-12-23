@@ -53,7 +53,7 @@ $ pod try GlitchLabel
   ```
 
 * **Manually**
-  * To install manually the GlitchLabel in an app, just drag the `GlitchLabel/GlitchLabel.swift` file into your project.
+  * To install the GlitchLabel manually in an app, just drag the `GlitchLabel/GlitchLabel.swift` file into your project.
 
 ## Usage
 
